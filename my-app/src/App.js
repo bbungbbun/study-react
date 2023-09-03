@@ -6,6 +6,7 @@ import About from "./pages/about";
 import Counter from "./pages/counter";
 import Input from "./pages/input";
 import Input2 from "./pages/input2";
+import List from "./pages/list";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Link to="/counter">counter</Link> |
         <Link to="/input">input</Link> |
         <Link to="/input2">input2</Link> |
+        <Link to="/list">list</Link> |
       </nav>
 
       <Routes>
@@ -25,6 +27,7 @@ function App() {
         <Route path="/counter" element={<Counter />} />
         <Route path="/input" element={<Input />} />
         <Route path="/input2" element={<Input2 />} />
+        <Route path="/list" element={<List />} />
       </Routes>
     </div>
   );
