@@ -5,6 +5,7 @@ import Home from "./pages/home"; // 파일명 시작을 대문자로 하면 오�
 import About from "./pages/about";
 import Counter from "./pages/counter";
 import Input from "./pages/input";
+import Input2 from "./pages/input2";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Link to="/about">about</Link> |
         <Link to="/counter">counter</Link> |
         <Link to="/input">input</Link> |
+        <Link to="/input2">input2</Link> |
       </nav>
 
       <Routes>
@@ -22,6 +24,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/counter" element={<Counter />} />
         <Route path="/input" element={<Input />} />
+        <Route path="/input2" element={<Input2 />} />
       </Routes>
     </div>
   );
