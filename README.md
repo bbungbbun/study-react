@@ -1,5 +1,6 @@
 # 시청한 강의
 - `my-app` : [한시간 만에 끝내는 React.js 입문](https://youtu.be/6GECT2Jrr_g)
+- `react-app` : [생활코딩 - React 2022 개정판](https://www.youtube.com/playlist?list=PLuHgQVnccGMCOGstdDZvH41x0Vtvwyxu7)
 
 ## node.js
 - [node.js 설치](https://youtu.be/5l4nma-WbHs)
