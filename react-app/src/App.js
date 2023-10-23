@@ -1,6 +1,8 @@
 import './App.css';
 import {useState} from 'react';
 
+// git 확인
+
 function Header(props){
   return <header>
     <h1><a href="/" onClick={(event)=>{
